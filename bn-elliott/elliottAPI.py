@@ -29,7 +29,7 @@ file = open('multiprototype_Elliott.csv')
 data = file.read().split()
 data = [d.split(',') for d in data]
 for d in data:
-    SC[int(d[0])-1].append(d[1])
+    SC[int(d[0])].append(d[1])
 
 
 # get stocks historical and SAX
